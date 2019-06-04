@@ -1,0 +1,262 @@
+body, html {
+  height: 100%;
+  font-family: 'Acme', sans-serif;
+}
+
+#switchImg:hover {
+  opacity: 0.7;
+  cursor: grab;
+}
+
+#switchImg:active {
+  cursor: grabbing;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .bg-parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 1314px) {
+  ul.topnav li a {
+    font-size: 15px;
+  }
+  ul.topnav li {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 1034px) {
+  ul.topnav li {
+    padding: 0 !important;
+  }
+}
+
+.bg-parallax {
+  height: 100%;
+  opacity: 0.75;
+}
+
+@media (max-width: 750px) {
+  .bg-parallax {
+    height: 85%;
+  }
+}
+
+.-front {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.-front span {
+  padding: 1rem;
+  background-color: #000;
+}
+
+.-front span a {
+  text-decoration: none;
+}
+
+.-front span a:hover {
+  color: #1eaedb !important;
+}
+
+.bg-parallax .-front h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 447px) {
+  .bg-parallax .-front h1 {
+    font-size: 2rem;
+  }
+}
+
+.jumbo {
+  width: 70%;
+  margin: auto;
+}
+
+.jumbo p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 1150px) {
+  .jumbo p  {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 855px) {
+  .jumbo p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 447px) {
+  .jumbo p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 662px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 549px) {
+  h2 {
+    padding-left: 4rem;
+  }
+}
+
+.col .m2-5 {
+  width: 35%;
+  box-sizing: border-box;
+}
+
+.m2-5 > img {
+  height: 320px;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.col .m3-5 {
+  box-sizing: border-box;
+  width: 65%;
+}
+
+.m3-5 > p {
+  text-align: justify;
+  padding-right: 4rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 1150px) {
+  .m2-5 > img {
+    height: 240px;
+  }
+  .m3-5 > p {
+    font-size: 1.5rem !important;
+  }
+  .m3-5 > .excessText {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 855px) {
+  .m2-5 > img {
+    height: 180px;
+  }
+  .m3-5 > h3 {
+    font-size: 1.5rem !important;
+  }
+  .m3-5 > h5 {
+    font-size: 1.5rem !important;
+  }
+  .m3-5 > p {
+    font-size: 1rem !important;
+  }
+  .m3-5 > .excessText {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media (max-width: 662px) {
+  .m2-5 > img {
+    height: 140px;
+  }
+  .m3-5 > h3 {
+    font-size: 1rem !important;
+  }
+  .m3-5 > h5 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 549px) {
+  .m2-5 > img {
+    height: 300px;
+  }
+  .m3-5 > h3 {
+    padding-left: 4rem;
+  }
+  .m3-5 > h5 {
+    padding-left: 4rem;
+  }
+  .m3-5 > p {
+    padding-left: 4rem;
+  }
+  .m3-5 > .excessText {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 447px) {
+  .m2-5 > img {
+    height: 240px;
+  }
+}
+
+@media (max-width: 414px) {
+  .m2-5 > img {
+    height: 200px;
+  }
+}
+
+div.container.video {
+  margin-top: 10rem;
+  width: 100%;
+}
+
+div.container.video a:hover {
+  opacity: 0.75 !important;
+}
+
+.vid-overlay {
+  position: absolute;
+  top: 40%;
+  margin-top: -40px;
+  left: 50%;
+  margin-left: -50px;
+  font-size: 5rem;
+}
+
+@media (max-width: 662px) {
+  .vid-overlay {
+    top: 42%;
+    left: 52%;
+    margin-left: -48px;
+    font-size: 3rem;
+  }
+}
+
+.footer > div {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  height: 8rem;
+  margin: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}

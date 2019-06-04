@@ -1,0 +1,163 @@
+body, html {
+  height: 100%;
+  font-family: 'Acme', sans-serif;
+}
+
+#switchImg:hover {
+  opacity: 0.75;
+  cursor: grab;
+}
+
+#switchImg:active {
+  cursor: grabbing;
+}
+
+a .bg-parallax:hover {
+  opacity: 0.75;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .bg-parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 1314px) {
+  ul.topnav li a {
+    font-size: 15px;
+  }
+  ul.topnav li {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 1034px) {
+  ul.topnav li {
+    padding: 0 !important;
+  }
+}
+
+.bg-parallax {
+  height: 100%;
+  opacity: 0.8;
+}
+
+@media (max-width: 750px) {
+  .bg-parallax {
+    height: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .bg-parallax {
+    height: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+  .bg-parallax {
+    height: 35%;
+  }
+}
+
+.-front {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.bg-parallax .-front h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .bg-parallax .-front h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .bg-parallax .-front h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.jumbo {
+  width: 70%;
+  margin: auto;
+}
+
+.jumbo p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .jumbo > p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .jumbo > p {
+    font-size: 1rem;
+  }
+}
+
+.jumbo blockquote {
+  font-size: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 575px) {
+  .jumbo blockquote {
+    font-size: 1.5rem;
+  }
+}
+
+.jumbo dt {
+  font-size: 2rem;
+}
+
+.jumbo dt a {
+  text-decoration: none;
+}
+
+.jumbo dd {
+  margin-inline-start: 0;
+  color: #A52A2A;
+}
+
+@media (max-width: 414px) {
+  .jumbo dt {
+    font-size: 1.5rem;
+  }
+  .jumbo dd {
+    font-size: 1rem;
+  }
+}
+
+.footer > div {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  height: 8rem;
+  margin: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}

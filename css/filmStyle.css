@@ -1,0 +1,115 @@
+body, html {
+  height: 100%;
+  font-family: 'Acme', sans-serif;
+}
+
+a .bg-parallax:hover {
+  opacity: 0.85;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .bg-parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 1314px) {
+  ul.topnav li a {
+    font-size: 15px;
+  }
+  ul.topnav li {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 1034px) {
+  ul.topnav li {
+    padding: 0 !important;
+  }
+}
+
+.bg-parallax {
+  height: 100%;
+  opacity: 0.9;
+}
+
+@media (max-width: 750px) {
+  .bg-parallax {
+    height: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .bg-parallax {
+    height: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+  .bg-parallax {
+    height: 35%;
+  }
+}
+
+.-front {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.bg-parallax .-front h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.jumbo {
+  width: 70%;
+  margin: auto;
+}
+
+.jumbo p {
+  color: #008080;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .jumbo > p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .bg-parallax .-front h1 {
+    font-size: 2.5rem;
+  }
+  .jumbo > p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .jumbo > p {
+    font-size: 1rem;
+  }
+  .bg-parallax .-front h1 {
+    font-size: 2rem;
+  }
+}
+
+.footer > div {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  height: 8rem;
+  margin: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
