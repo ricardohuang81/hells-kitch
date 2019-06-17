@@ -18,6 +18,11 @@ body, html {
   }
 }
 
+.topnav {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1314px) {
   ul.topnav li a {
     font-size: 15px;
@@ -39,6 +44,9 @@ body, html {
 }
 
 @media (max-width: 750px) {
+  .topnav {
+    display: block;
+  }
   .bg-parallax {
     height: 85%;
   }
